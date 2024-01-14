@@ -1,0 +1,74 @@
+.item-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 16px;
+    background-color: white;
+    border: 2px solid #1B1B1B;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 0px #1B1B1B;
+    border-radius: 8px;
+}
+
+.item-detail-info {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.item-detail-info h2 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.item-detail-info p {
+    font-family: 'Comic Sans MS', cursive;
+    margin-bottom: 15px;
+}
+
+.item-detail-info img {
+    width: 150px; 
+    height: auto;
+}
+
+.item-detail-actions {
+    text-align: center;
+}
+
+.btn-finish-purchase {
+    font-family: 'Comic Sans MS', cursive;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em; 
+}
+
+.btn-finish-purchase:hover {
+    background-color: #45a049;
+}
+
+.item-count-container {
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 20px;
+    color: #007bff; 
+    font-size: 1.2em; 
+}
